@@ -53,6 +53,17 @@ body {
   margin-bottom: 24px;
 }
 
+.localise-logo {
+  background: url(../assets/img/logo.svg) 0 0 no-repeat;
+  background-size: contain;
+  width: 130px;
+  height: 28px;
+  float: left;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: relative;
+}
+
 .header-list {
   display: flex;
   align-items: center;
@@ -350,11 +361,13 @@ body {
 }
 
 .section-six-blocks {
+  position: relative;
   display: flex;
+  flex-direction: row-reverse;
+  padding: 110px 0 105px;
+  align-items: flex-start;
+  width: 100%;
   justify-content: space-between;
-  padding-top: 70px;
-  flex-wrap: wrap;
-  padding-bottom: 105px;
 }
 
 .section-six-p {
@@ -372,7 +385,12 @@ body {
   max-width: 310px;
 }
 
+.section-six-footer {
+  margin: 23px 0 0;
+}
+
 .edward {
+  display: block;
   color: #000;
   font-family: Roboto;
   font-size: 15px;
@@ -380,8 +398,9 @@ body {
   line-height: 25px;
 }
 
-.revolut-svg {
-  display: block;
+.revolut {
+  box-sizing: border-box;
+  padding: 7px 0 0;
 }
 
 /* Section seven */
