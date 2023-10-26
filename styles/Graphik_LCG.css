@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../assets/fonts/Graphik_LCG/GraphikLCG-Regular.eot');
+    src: url('../assets/fonts/Graphik_LCG/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Regular.woff') format('woff'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Regular.ttf') format('truetype'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../assets/fonts/Graphik_LCG/GraphikLCG-Semibold.eot');
+    src: url('../assets/fonts/Graphik_LCG/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Semibold.woff') format('woff'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Semibold.ttf') format('truetype'),
+        url('../assets/fonts/Graphik_LCG/GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
