@@ -361,10 +361,9 @@ body {
 }
 
 .section-six-blocks {
-  position: relative;
   display: flex;
   flex-direction: row-reverse;
-  padding: 110px 0 105px;
+  padding: 70px 0 105px;
   align-items: flex-start;
   width: 100%;
   justify-content: space-between;
@@ -390,7 +389,6 @@ body {
 }
 
 .edward {
-  display: block;
   color: #000;
   font-family: Roboto;
   font-size: 15px;
@@ -399,7 +397,6 @@ body {
 }
 
 .revolut {
-  box-sizing: border-box;
   padding: 7px 0 0;
 }
 
