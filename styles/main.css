@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src:
+    url(../assets/fonts/GraphikLCG-Semibold.woff2) format('woff2'),
+    url(../assets/fonts/GraphikLCG-Semibold.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src:
+    url(../assets/fonts/GraphikLCG-Regular.woff2) format('woff2'),
+    url(../assets/fonts/GraphikLCG-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* common properties */
+:root {
+  --container-space: 20px;
+  --container-width: calc(1230px + var(--container-space) * 2)
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ref {
+  color: black;
+}
+
+.container {
+  max-width: 1330px;
+  padding: 0 var(--container-space);
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  margin-bottom: 97px;
+}
+
+.header-navpanel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 31px;
+  margin-bottom: 24px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.header-ref {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header-button {
+  width: 120px;
+  height: 45px;
+  text-align: center;
+  font-family: 'Graphik LCG';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.header-button:first-child {
+  background-color: white;
+}
+
+.button-orange {
+  background: #FF6336;
+  border: none;
+  color: white;
+}
+
+/* Section one */
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 18px;
+  margin-bottom: 147px;
+}
+
+.section-one-h1 {
+  max-width: 552px;
+  color: #000;
+  font-size: 65px;
+  line-height: 70px;
+  font-family: 'Graphik LCG';
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 51px;
+}
+
+.section-one-h4 {
+  max-width: 400px;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 51px;
+}
+
+.section-one-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.section-one-button {
+  width: 160px;
+  height: 60px;
+  margin-bottom: 24px;
+  font-family: 'Graphik LCG';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.section-one-button:last-child {
+  background-color: white;
+}
+
+.section-one-p {
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.section-one-img {
+  max-width: 738px;
+}
+
+/* Section two */
+.section-two {
+  background-color: #FF9C7D;
+  margin-bottom: 100px;
+}
+
+.section-two-h2 {
+  text-align: center;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-top: 98px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.section-two-list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 94px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Section three */
+.section-three-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+  flex-wrap: wrap;
+}
+
+.section-three-h2 {
+  max-width: 493px;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.section-three-p {
+  max-width: 479px;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-three-ref {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.section-thre-img {
+  max-width: 632px;
+}
+
+/* section four */
+.section-four {
+  background-color: #FFF8E4;
+  padding-bottom: 150px;
+}
+
+.section-four-h2 {
+  color: #000;
+  text-align: center;
+  font-family: 'Graphik LCG';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-top: 120px;
+  margin-bottom: 58px;
+}
+
+.section-four-blocks1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 110px;
+  margin-bottom: 57px;
+}
+
+.section-four-blocks2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 110px;
+  margin-bottom: 57px;
+}
+
+.item {
+  max-width: 330px;
+  padding: 0 10;
+}
+
+.section-four-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 130px;
+}
+
+.section-four-h4 {
+  color: #000;
+  text-align: center;
+  font-family: 'Graphik LCG';
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.section-four-p {
+  color: #000;
+  text-align: center;
+  font-family: 'Graphik LCG';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* Section five */
+.section-five {
+  margin-bottom: 120px;
+}
+
+.section-five-h2 {
+  .color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 154px;
+  margin-bottom: 85px;
+}
+
+.section-five-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-five-img {
+  margin-bottom: 49px;
+}
+
+.section-five-h3 {
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.section-five-p {
+  max-width: 409px;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.section-five-ref {
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration-line: underline;
+}
+
+/* Section six */
+.section-six {
+  background-color: #C9E8F2;
+}
+
+.section-six-blocks {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  flex-wrap: wrap;
+  padding-bottom: 105px;
+}
+
+.section-six-p {
+  max-width: 900px;
+  color: #000;
+  font-family: 'Graphik LCG';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: start;
+
+}
+
+.section-six-img {
+  max-width: 310px;
+}
+
+.edward {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.revolut-svg {
+  display: block;
+}
+
+/* Section seven */
+.section-seven {
+  background-color: #DABC98;
+}
