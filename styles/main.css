@@ -3,7 +3,7 @@
 /* common properties */
 :root {
   --container-space: 20px;
-  --container-width: calc(1230px + var(--container-space) * 2)
+  --background-color-pomaranche: #FF9C7D;
 }
 
 body {
@@ -22,14 +22,22 @@ body {
   line-height: 60px;
 }
 
-.p1 {
+.p20 {
   font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.p25 {
+  color: #000;
+  font-size: 25px;
   font-weight: 400;
   line-height: 30px;
 }
 
 .ref {
   color: black;
+  text-decoration: none;
 }
 
 .container {
@@ -94,7 +102,7 @@ body {
 }
 
 .button-orange {
-  background: #FF6336;
+  background-color: var(--background-color-pomaranche);
   border: none;
   color: white;
 }
@@ -117,10 +125,8 @@ body {
   margin-bottom: 51px;
 }
 
-.section-one-h4 {
+.section-one-p1 {
   max-width: 400px;
-  font-size: 25px;
-  font-weight: 400;
   line-height: 35px;
   margin-bottom: 51px;
 }
@@ -146,7 +152,7 @@ body {
   background-color: white;
 }
 
-.section-one-p {
+.section-one-p2 {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -306,10 +312,6 @@ body {
 
 .section-five-p {
   max-width: 411px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-bottom: 25px;
 }
 
 .section-five-ref {
@@ -367,4 +369,113 @@ body {
 /* Section seven */
 .section-seven {
   background-color: #DABC98;
+}
+
+.section-seven-bloks {
+  display: flex;
+  padding: 69px 0 80px;
+  flex-wrap: wrap;
+}
+
+.section-seven-block1 {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+  border-right: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.section-seven-img1 {
+  max-width: 176px;
+  width: 100%;
+}
+
+.section-seven-h3 {
+  max-width: 461px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.section-seven-block2 {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-left: 71px;
+  flex-wrap: wrap;
+}
+
+.stars {
+  display: block;
+  padding: 20px 0 14px;
+}
+
+/* Section eight */
+.section-eight {
+  text-align: center;
+}
+
+.section-eight-button {
+  width: 193px;
+  height: 60px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+/* Ssection nine */
+.section-nine {
+  background-color: var(--background-color-pomaranche);
+  text-align: center;
+}
+
+.section-nine-button {
+  background-color: #000;
+  color: white;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+/* Footer */
+.footer-sections {
+  display: flex;
+}
+
+.footer-h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.footer-specialized {
+  display: block;
+  max-width: 80px;
+}
+
+.footer-menus {
+  display: flex;
+  gap: 34px;
+}
+
+.footer-logo {
+  display: inline-flex;
+}
+
+.footer-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menus>div>ul>li>a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
 }
