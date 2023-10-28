@@ -413,6 +413,17 @@ body {
 /* Section eight */
 .section-eight {
   text-align: center;
+  margin-top: 169px;
+  margin-bottom: 140px;
+}
+
+.section-eight-img {
+  max-width: 1023px;
+  width: 100%;
+}
+
+.section-eight-p {
+  padding: 5px 0 25px 0;
 }
 
 .section-eight-button {
@@ -423,12 +434,18 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 60px;
+  margin-top: 32px;
 }
 
 /* Ssection nine */
 .section-nine {
   background-color: var(--background-color-pomaranche);
   text-align: center;
+  padding: 140px 0 161px 0;
+}
+
+.section-nine-h2 {
+  padding-bottom: 29px;
 }
 
 .section-nine-button {
@@ -440,17 +457,31 @@ body {
   font-size: 17px;
   font-weight: 600;
   line-height: 60px;
+  margin-top: 54px;
 }
 
 /* Footer */
+.footer {
+  padding-top: 92px;
+}
+
 .footer-sections {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  padding-bottom: 28px;
 }
 
 .footer-img {
   max-width: 300px;
   width: 100%;
+  padding-bottom: 31px;
 }
 
 .footer-p1 {
@@ -458,22 +489,32 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+  padding-bottom: 15px;
+}
+
+.footer-ref {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
 }
 
 .footer-h6 {
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
+  padding-bottom: 11px;
 }
 
 .footer-specialized-img {
   display: block;
   max-width: 80px;
+  padding-bottom: 21px;
 }
 
 .footer-menus {
   display: flex;
   gap: 34px;
+  flex-wrap: wrap;
 }
 
 .footer-menus>div>ul>li {
@@ -488,17 +529,23 @@ body {
   line-height: 15px;
 }
 
+.footer-line {
+  margin-top: 95px;
+}
+
 .footer-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 48px 0 47px;
+  flex-wrap: wrap;
 }
 
 .footer-content {
   display: flex;
   align-items: center;
   gap: 14px;
+  flex-wrap: wrap;
 }
 
 .footer-p2 {
@@ -506,4 +553,8 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
+}
+
+.footer-years {
+  margin-right: 78px;
 }
