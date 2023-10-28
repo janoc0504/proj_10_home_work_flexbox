@@ -435,6 +435,7 @@ body {
   font-weight: 600;
   line-height: 60px;
   margin-top: 32px;
+  cursor: pointer;
 }
 
 /* Ssection nine */
@@ -458,6 +459,7 @@ body {
   font-weight: 600;
   line-height: 60px;
   margin-top: 54px;
+  cursor: pointer;
 }
 
 /* Footer */
