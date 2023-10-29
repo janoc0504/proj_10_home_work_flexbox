@@ -48,6 +48,10 @@ body {
   width: 100%;
 }
 
+.img-padding {
+  padding: 10px 0 10px 0;
+}
+
 /* Header */
 .header {
   margin-bottom: 97px;
