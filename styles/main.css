@@ -4,6 +4,7 @@
 :root {
   --container-space: 20px;
   --background-color-pomaranche: #FF9C7D;
+  --background-color-button: #FF6336;
 }
 
 body {
@@ -94,7 +95,6 @@ body {
 
 .header-button {
   width: 120px;
-  height: 45px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
@@ -107,7 +107,7 @@ body {
 }
 
 .button-orange {
-  background-color: var(--background-color-pomaranche);
+  background-color: var(--background-color-button);
   border: none;
   color: white;
 }
@@ -144,7 +144,6 @@ body {
 
 .section-one-button {
   width: 160px;
-  height: 60px;
   margin-bottom: 24px;
   font-size: 16px;
   font-weight: 600;
