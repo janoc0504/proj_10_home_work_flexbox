@@ -628,6 +628,11 @@ body {
   .section-three-block {
     margin-bottom: 100px;
   }
+
+  .section-four-blocks1,
+  .section-four-blocks2 {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 992px) {
@@ -638,11 +643,21 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .section-one {
+    justify-content: center;
+  }
+
   .section-seven-block1 {
     border-right: none;
+    justify-content: center;
   }
 
   .section-three-block {
     margin-bottom: 120px;
+    justify-content: center;
+  }
+
+  .section-six-blocks {
+    justify-content: center;
   }
 }
